@@ -102,6 +102,60 @@ li:hover {
     border-radius: 20px;
 }
 
+/* second design */
+
+.box-1 {
+    background-color: #fafafa;
+    width:85%;
+    margin: auto;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:90px;
+    margin-bottom: 60px;
+    box-shadow: 3px 6px 8px rgba(54, 54, 54, 1);
+}
+
+.img-area-1{
+    max-width: 600px;
+    min-height: 20vh;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.text-area-1 {
+    border-left: 10px solid rgb(108 99 255);
+    max-width: 450px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.text-area-1 p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.text-area-1 li {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.img-area-1 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
 @media all and (max-width:500px){
     
     .img-area {
